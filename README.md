@@ -1,32 +1,30 @@
-# Claude Plugins by Yusuf Saber
+# Islamic Reminders for Claude Code
 
-A collection of plugins for Claude Code.
+Display Islamic reminders and dhikr during your Claude Code sessions.
 
-## Available Plugins
+## Features
 
-### islamic-reminders
+- **Session Start:** Shows "In the name of Allah, the Most Gracious, the Most Merciful ﷽"
+- **After Each Response:** Displays a random dhikr reminder
 
-Display Islamic reminders and dhikr during Claude Code sessions.
+## Included Reminders
 
-**Features:**
-- Shows "In the name of Allah, the Most Gracious, the Most Merciful ﷽" at session start
-- Displays random dhikr after each Claude response
-
-**Included Reminders:**
 - SubhanAllah - Glory be to Allah
 - Alhamdulillah - All praise is due to Allah
 - Allahu Akbar - Allah is the Greatest
 - La ilaha illallah - There is no god but Allah
 - Astaghfirullah - I seek forgiveness from Allah
-- And more...
+- SubhanAllahi wa bihamdihi - Glory be to Allah and praise Him
+- SubhanAllahil Azeem - Glory be to Allah, the Magnificent
+- La hawla wa la quwwata illa billah - No power or strength except with Allah
+- Tawakkaltu 'ala Allah - I put my trust in Allah
+- Masha'Allah - What Allah wills
 
 ---
 
 ## Installation
 
 ### Step 1: Add the Marketplace
-
-In Claude Code, run:
 
 ```
 /plugin marketplace add ysaber/claude-plugins
@@ -40,14 +38,11 @@ In Claude Code, run:
 
 ### Step 3: Restart Claude Code
 
-- **Mac/Linux:** Close terminal and run `claude` again
-- **Windows:** Close the terminal window and run `claude` again
+Close your terminal and run `claude` again.
 
 ---
 
-## Updating the Plugin
-
-If you need to update to the latest version:
+## Updating
 
 ### Mac/Linux
 
@@ -55,15 +50,13 @@ If you need to update to the latest version:
 rm -rf ~/.claude/plugins/marketplaces/claude-plugins
 ```
 
-Then repeat the installation steps above.
-
 ### Windows
 
 ```cmd
 rmdir /s /q "%USERPROFILE%\.claude\plugins\marketplaces\claude-plugins"
 ```
 
-Then repeat the installation steps above.
+Then repeat the installation steps.
 
 ---
 
@@ -78,7 +71,6 @@ Then repeat the installation steps above.
 ## Requirements
 
 - Claude Code v2.0+
-- Node.js (comes with Claude Code)
 
 ## License
 

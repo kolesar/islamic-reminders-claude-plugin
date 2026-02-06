@@ -22,10 +22,10 @@ Display Islamic reminders and dhikr during your Claude Code sessions.
 
 ```bash
 # Add the marketplace (if not already added)
-/plugin marketplace add ysaber/claude-plugins
+/plugin marketplace add ysaber/islamic-reminders-claude-plugin
 
 # Install the plugin
-/plugin install islamic-reminders@claude-plugins
+/plugin install islamic-reminders@islamic-reminders-claude-plugin
 ```
 
 ### Manual Installation

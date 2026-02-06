@@ -6,6 +6,11 @@
     "name": "Yusuf Saber"
   },
   "license": "MIT",
+  "homepage": "https://github.com/ysaber/islamic-reminders-claude-plugin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ysaber/islamic-reminders-claude-plugin.git"
+  },
   "keywords": ["update", "auto-update", "upgrade", "brew", "winget", "npm", "cross-platform"],
   "hooks": "./hooks/hooks.json"
 }

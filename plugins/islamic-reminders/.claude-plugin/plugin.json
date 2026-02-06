@@ -6,6 +6,7 @@
     "name": "Yusuf Saber"
   },
   "license": "MIT",
-  "keywords": ["islamic", "dhikr", "reminders", "muslim", "prayers"],
-  "hooks": "./hooks/hooks.json"
+  "homepage": "https://github.com/ysaber/islamic-reminders-claude-plugin",
+  "repository": "https://github.com/ysaber/islamic-reminders-claude-plugin.git",
+  "keywords": ["islamic", "dhikr", "reminders", "muslim", "prayers"]
 }

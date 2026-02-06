@@ -26,14 +26,22 @@ Display Islamic reminders and dhikr during your Claude Code sessions.
 
 ### Step 1: Add the Marketplace
 
-```
+```bash
 /plugin marketplace add ysaber/islamic-reminders-claude-plugin
 ```
 
-### Step 2: Install the Plugin
+### Step 2: Install the Plugins
 
-```
+Install the Islamic Reminders plugin:
+
+```bash
 /plugin install islamic-reminders@islamic-reminders-claude-plugin
+```
+
+Or install the Auto-Update plugin:
+
+```bash
+/plugin install auto-update@islamic-reminders-claude-plugin
 ```
 
 ### Step 3: Restart Claude Code
@@ -47,13 +55,13 @@ Close your terminal and run `claude` again.
 ### Mac/Linux
 
 ```bash
-rm -rf ~/.claude/plugins/marketplaces/claude-plugins
+rm -rf ~/.claude/plugins/marketplaces/islamic-reminders-claude-plugin
 ```
 
 ### Windows
 
 ```cmd
-rmdir /s /q "%USERPROFILE%\.claude\plugins\marketplaces\claude-plugins"
+rmdir /s /q "%USERPROFILE%\.claude\plugins\marketplaces\islamic-reminders-claude-plugin"
 ```
 
 Then repeat the installation steps.

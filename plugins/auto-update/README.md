@@ -4,13 +4,21 @@ Automatically updates Claude Code when a new version is available via your packa
 
 ## Installation
 
-In Claude Code, run:
+### Step 1: Add the Marketplace
 
-```
-/install auto-update
+```bash
+/plugin marketplace add ysaber/islamic-reminders-claude-plugin
 ```
 
-That's it!
+### Step 2: Install the Plugin
+
+```bash
+/plugin install auto-update@islamic-reminders-claude-plugin
+```
+
+### Step 3: Restart Claude Code
+
+Close your terminal and run `claude` again.
 
 ## (Optional) Hide the built-in update notification
 
